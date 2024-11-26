@@ -33,10 +33,10 @@ Raznet RealTalk is a modern real-time chat application available as both a **web
 
 ### Android
 
-
 RaznetRealTalk/ ├── app/ │ ├── src/ │ │ ├── main/ │ │ │ ├── kotlin/com/example/raznetrealtalkapp/ │ │ │ │ ├── MainActivity.kt │ │ │ │ ├── LoginScreen.kt │ │ │ │ ├── GreetingScreen.kt │ │ │ │ ├── ChatScreen.kt │ │ │ │ ├── ProfileScreen.kt │ │ │ ├── AndroidManifest.xml │ ├── build.gradle.kts ├── build.gradle.kts ├── .gitignore
 
-
+Web Interface
+RaznetRealTalk/ ├── app/ │ ├── src/ │ │ ├── main/ │ │ │ ├── res/web/ │ │ │ │ ├── index.html │ │ │ │ ├── styles.css │ │ │ │ ├── scripts.js │ ├── build.gradle.kts ├── scripts/ │ ├── setup_firebase.py │ ├── generate_data.py ├── .gitignore
 ### Web Interface
 
 RaznetRealTalk/ ├── app/ │ ├── src/ │ │ ├── main/ │ │ │ ├── res/web/ │ │ │ │ ├── index.html │ │ │ │ ├── styles.css │ │ │ │ ├── scripts.js │ ├── build.gradle.kts ├── scripts/ │ ├── setup_firebase.py │ ├── generate_data.py ├── .gitignore
